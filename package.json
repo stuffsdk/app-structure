@@ -1,6 +1,6 @@
 [
     {
-        "name":"%s",
+        "name":"{name}",
         "version": "0.0.1",
         "icon": false,
         "category": false,

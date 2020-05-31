@@ -1,4 +1,4 @@
-<?php namespace %s;
+<?php namespace {name};
 
 use TestFlight;
 use TestEnvironment;

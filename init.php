@@ -1,4 +1,4 @@
-<?php namespace %s;
+<?php namespace {name};
 
 use App;
 use AppConfig;
@@ -21,8 +21,8 @@ class init extends AppConfig
 
     function urls(URLController $controller)
     {
-        $controller->register('/%s',['GET','POST'],false,function (Request $request){
-            return $this->render($this,'sample.html',['name'=>'%s']);
+        $controller->register('/{name}',['GET','POST'],false,function (Request $request){
+            return $this->render($this,'sample.html',['name'=>'{name}']);
         });
     }
 
