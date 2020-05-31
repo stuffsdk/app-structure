@@ -1,17 +1,15 @@
-[
-    {
-        "name":"{name}",
-        "version": "0.0.2",
-        "icon": false,
-        "category": false,
-        "keywords": [],
-        "summary": false,
-        "description":false,
-        "author": false,
-        "website": false,
-        "git": false,
-        "maintainer": false,
-        "require": {
-        }
-    }
-]
+{
+  "name": "{name}",
+  "version": "0.0.2",
+  "icon": false,
+  "category": false,
+  "keywords": [],
+  "summary": false,
+  "description": false,
+  "author": false,
+  "website": false,
+  "git": false,
+  "maintainer": false,
+  "require": {
+  }
+}
