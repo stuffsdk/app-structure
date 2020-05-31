@@ -2,6 +2,7 @@
 
 use App;
 use AppConfig;
+use Request;
 use manifest;
 use URLController;
 
@@ -20,7 +21,9 @@ class init extends AppConfig
 
     function urls(URLController $controller)
     {
-
+        $controller->register('/%s',['GET','POST'],false,function (Request $request){
+            return $this->render($this,'sample.html',['name'=>'%s']);
+        });
     }
 
 
