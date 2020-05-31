@@ -1,0 +1,17 @@
+[
+    {
+        "name":"%s",
+        "version": "0.0.1",
+        "icon": false,
+        "category": false,
+        "keywords": [],
+        "summary": false,
+        "description":false,
+        "author": false,
+        "website": false,
+        "git": false,
+        "maintainer": false,
+        "require": {
+        }
+    }
+]
