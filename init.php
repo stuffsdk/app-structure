@@ -1,4 +1,4 @@
-<?php namespace sendgrid;
+<?php namespace {name};
 
 use App;
 use AppConfig;
@@ -21,8 +21,8 @@ class init extends AppConfig
 
     function urls(URLController $controller)
     {
-        $controller->register('/sendgrid',['GET','POST'],false,function (Request $request){
-            return $this->render($this,'sample.html',['name'=>'sendgrid']);
+        $controller->register('/{name}',['GET','POST'],false,function (Request $request){
+            return $this->render($this,'sample.html',['name'=>'{name}']);
         });
     }
 

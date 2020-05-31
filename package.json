@@ -1,6 +1,6 @@
 [
     {
-        "name":"sendgrid",
+        "name":"{name}",
         "version": "0.0.2",
         "icon": false,
         "category": false,

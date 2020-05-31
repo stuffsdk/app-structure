@@ -1,4 +1,4 @@
-<?php namespace sendgrid;
+<?php namespace {name};
 
 use Fields;
 use Model;
