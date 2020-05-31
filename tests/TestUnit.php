@@ -1,4 +1,4 @@
-<?php namespace {name};
+<?php namespace sendgrid;
 
 use TestFlight;
 use TestEnvironment;
