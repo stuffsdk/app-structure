@@ -21,7 +21,7 @@ class init extends AppConfig
 
     function urls(URLController $controller)
     {
-        $controller->register('/{name}',['GET','POST'],false,function (Request $request){
+        $controller->register('/{name}',['GET','POST'],function (Request $request){
             return $this->render($this,'sample.html',['name'=>'{name}']);
         });
     }
